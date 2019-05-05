@@ -14,7 +14,7 @@ ROUTING_KEY_RESPONSE = "lisitao_test_send_queue"    # 回送回应的routingkey
 QUEUE_NAME_CONTROL = "return_message"   # 上送下发指令以及下发状态的队列
 ROUTING_KEY_CONTROL = "return_message"  # 上送下发指令以及下发状态的routingkey
 QUEUE_NAME_ALARM = "lisitao_test_alarm_queue"   # 上送警报指令的队列
-ROUTING_KEY_ALARM = "lisitao_test_alarm_queue"  # 上送警报指令的routingkey
+ROUTING_KEY_ALARM = "lisitao_test_alarm_queue"  # 上送警报指令的routingkey123
 
 
 class Config(object):
